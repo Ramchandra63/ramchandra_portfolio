@@ -865,7 +865,7 @@ h6 { font-size: 16px; }
 	height: auto;
 	clear: both;
 	float: left;
-	padding-top: 90px;
+	padding-top: 50px;
 }
 .grax_tm_portfolio ul{
 	margin: 0px 0px 0px -50px;
@@ -1319,8 +1319,8 @@ body.modal{
 }
 .grax_tm_modalbox_news .description_wrap{
 	position: relative;
-	width: 100%;
-	height: 100%;
+	/* width: 100%;
+	height: 100%; */
 	float: left;
 	overflow: hidden;
 	padding: 50px;
@@ -1429,6 +1429,12 @@ body.modal{
 	text-decoration: none;
 	color: #000;
 }
+.grax_tm_modalbox_project .description_wrap.scrollable {
+  height: auto !important;
+  max-height: calc(140vh - 140px) !important;
+  overflow-y: auto !important;
+}
+
 
 
 

@@ -381,7 +381,7 @@ function grax_tm_modalbox_project() {
             // For local video files - ADDED muted, preload, and playsinline
             mainImageDiv.html(
                 '<div class="project_video_wrapper">' +
-                '<video controls muted preload="auto" playsinline style="width: 100%; max-width: 100%; height: auto;">' +
+                '<video controls muted preload="auto" playsinline style="width: 100%; max-width: 100%; height: 100%;">' +
                 '<source src="' + media.src + '" type="video/mp4">' +
                 'Your browser does not support the video tag.' +
                 '</video>' +
